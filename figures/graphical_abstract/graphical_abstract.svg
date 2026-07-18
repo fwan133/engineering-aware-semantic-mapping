@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1328" height="531" viewBox="0 0 1328 531" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering-aware semantic mapping of constrained urban streets</title>
+  <desc id="desc">A graphical abstract showing constrained urban streets, a handheld mobile mapping system, loop-closure-integrated geometric mapping, engineering-aware semantic refinement, and 3D swept path analysis.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fafc"/>
+      <stop offset="1" stop-color="#eef4f8"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#476b7f"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, Helvetica, sans-serif; fill: #17384a; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #506b79; }
+      .box-title { font: 700 18px Arial, Helvetica, sans-serif; fill: #17384a; }
+      .box-text { font: 400 14px Arial, Helvetica, sans-serif; fill: #324f5f; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #5d7480; }
+      .tag { font: 700 12px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .arrow { stroke: #476b7f; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1328" height="531" rx="18" fill="url(#bg)"/>
+  <text x="664" y="42" text-anchor="middle" class="title">Engineering-aware Semantic Mapping of Constrained Urban Streets</text>
+  <text x="664" y="68" text-anchor="middle" class="subtitle">Application-ready semantic 3D street models for swept path analysis in MiC logistics</text>
+
+  <!-- Constrained urban streets -->
+  <g transform="translate(30,108)">
+    <rect width="230" height="295" rx="16" fill="#17384a"/>
+    <rect x="18" y="18" width="194" height="28" rx="14" fill="#d97a3a"/>
+    <text x="115" y="37" text-anchor="middle" class="tag">CONSTRAINED URBAN STREETS</text>
+
+    <path d="M28 188 L82 120 L148 154 L202 98" stroke="#9fc3d6" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M28 214 L82 146 L148 180 L202 124" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="9 8"/>
+    <rect x="20" y="76" width="42" height="72" rx="4" fill="#6f8f9f"/>
+    <rect x="168" y="60" width="42" height="88" rx="4" fill="#6f8f9f"/>
+    <rect x="89" y="86" width="52" height="28" rx="4" fill="#d9e7ee"/>
+    <rect x="96" y="92" width="38" height="16" rx="3" fill="#90b2c3"/>
+
+    <text x="22" y="238" class="box-text" fill="#ffffff">• Narrow intersections</text>
+    <text x="22" y="263" class="box-text" fill="#ffffff">• Roundabouts</text>
+    <text x="22" y="288" class="box-text" fill="#ffffff">• Low-clearance overpasses</text>
+  </g>
+
+  <path class="arrow" d="M266 255 H286"/>
+
+  <!-- Module 1 -->
+  <g transform="translate(290,108)">
+    <rect width="230" height="295" rx="16" fill="#ffffff" stroke="#9ab4c2" stroke-width="2"/>
+    <rect x="18" y="18" width="86" height="26" rx="13" fill="#476b7f"/>
+    <text x="61" y="36" text-anchor="middle" class="tag">MODULE 1</text>
+    <text x="20" y="76" class="box-title">H-MMS &amp; Acquisition</text>
+
+    <circle cx="62" cy="128" r="31" fill="#e5f0f5" stroke="#6f95a8" stroke-width="2"/>
+    <rect x="52" y="98" width="20" height="28" rx="4" fill="#476b7f"/>
+    <circle cx="62" cy="96" r="9" fill="#d97a3a"/>
+    <path d="M62 126 L42 168 M62 126 L82 168 M62 138 L91 148 M62 138 L33 148" stroke="#476b7f" stroke-width="5" stroke-linecap="round"/>
+
+    <text x="20" y="206" class="box-text">Synchronized LiDAR, RGB,</text>
+    <text x="20" y="228" class="box-text">and IMU measurements</text>
+    <text x="20" y="258" class="box-text">Scenario-oriented routes</text>
+    <text x="20" y="280" class="box-text">for roadside and overhead</text>
+    <text x="20" y="302" class="box-text">constraint coverage</text>
+  </g>
+
+  <path class="arrow" d="M526 255 H546"/>
+
+  <!-- Module 2 -->
+  <g transform="translate(550,108)">
+    <rect width="230" height="295" rx="16" fill="#ffffff" stroke="#9ab4c2" stroke-width="2"/>
+    <rect x="18" y="18" width="86" height="26" rx="13" fill="#476b7f"/>
+    <text x="61" y="36" text-anchor="middle" class="tag">MODULE 2</text>
+    <text x="20" y="76" class="box-title">LC-GMM</text>
+
+    <g transform="translate(22,96)">
+      <circle cx="18" cy="70" r="8" fill="#d97a3a"/>
+      <circle cx="62" cy="40" r="8" fill="#476b7f"/>
+      <circle cx="108" cy="66" r="8" fill="#476b7f"/>
+      <circle cx="158" cy="32" r="8" fill="#476b7f"/>
+      <circle cx="180" cy="96" r="8" fill="#d97a3a"/>
+      <path d="M18 70 L62 40 L108 66 L158 32 L180 96 L108 66 L18 70" fill="none" stroke="#6f95a8" stroke-width="3"/>
+      <path d="M18 70 C62 120, 140 124, 180 96" fill="none" stroke="#d97a3a" stroke-width="3" stroke-dasharray="7 5"/>
+    </g>
+
+    <text x="20" y="224" class="box-text">Accurate LiDAR scan poses</text>
+    <text x="20" y="246" class="box-text">through local optimization,</text>
+    <text x="20" y="268" class="box-text">verified loop closure, PGO,</text>
+    <text x="20" y="290" class="box-text">and global refinement</text>
+  </g>
+
+  <path class="arrow" d="M786 255 H806"/>
+
+  <!-- Module 3 -->
+  <g transform="translate(810,108)">
+    <rect width="230" height="295" rx="16" fill="#ffffff" stroke="#9ab4c2" stroke-width="2"/>
+    <rect x="18" y="18" width="86" height="26" rx="13" fill="#476b7f"/>
+    <text x="61" y="36" text-anchor="middle" class="tag">MODULE 3</text>
+    <text x="20" y="76" class="box-title">EA-SMM</text>
+
+    <g transform="translate(24,96)">
+      <circle cx="14" cy="24" r="5" fill="#4f7f66"/>
+      <circle cx="38" cy="40" r="5" fill="#4f7f66"/>
+      <circle cx="65" cy="18" r="5" fill="#4f7f66"/>
+      <circle cx="90" cy="52" r="5" fill="#d97a3a"/>
+      <circle cx="118" cy="28" r="5" fill="#d97a3a"/>
+      <circle cx="148" cy="50" r="5" fill="#6f95a8"/>
+      <circle cx="176" cy="22" r="5" fill="#6f95a8"/>
+      <circle cx="24" cy="86" r="5" fill="#748f55"/>
+      <circle cx="54" cy="72" r="5" fill="#748f55"/>
+      <circle cx="84" cy="92" r="5" fill="#748f55"/>
+      <circle cx="120" cy="78" r="5" fill="#8f6c8e"/>
+      <circle cx="154" cy="92" r="5" fill="#8f6c8e"/>
+      <path d="M4 108 H190" stroke="#9ab4c2" stroke-width="3"/>
+      <rect x="30" y="102" width="120" height="14" rx="7" fill="#d9e7ee"/>
+    </g>
+
+    <text x="20" y="224" class="box-text">Point-wise semantic labels</text>
+    <text x="20" y="246" class="box-text">with class-specific refinement</text>
+    <text x="20" y="268" class="box-text">to remove transient objects</text>
+    <text x="20" y="290" class="box-text">and preserve collision-relevant</text>
+    <text x="20" y="312" class="box-text">structures</text>
+  </g>
+
+  <path class="arrow" d="M1046 255 H1066"/>
+
+  <!-- Output -->
+  <g transform="translate(1070,108)">
+    <rect width="228" height="295" rx="16" fill="#eaf2ec" stroke="#7fa18a" stroke-width="2"/>
+    <rect x="18" y="18" width="192" height="28" rx="14" fill="#4f7f66"/>
+    <text x="114" y="37" text-anchor="middle" class="tag">APPLICATION-READY OUTPUT</text>
+
+    <path d="M30 164 L72 119 L113 145 L160 94 L198 127" fill="none" stroke="#4f7f66" stroke-width="7" stroke-linecap="round"/>
+    <path d="M30 185 L72 140 L113 166 L160 115 L198 148" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="8 7"/>
+    <rect x="72" y="82" width="36" height="42" rx="4" fill="#90ad98"/>
+    <rect x="166" y="60" width="34" height="58" rx="4" fill="#90ad98"/>
+
+    <text x="114" y="222" text-anchor="middle" class="box-title">Semantic 3D Street Model</text>
+    <text x="114" y="254" text-anchor="middle" class="box-text">Geometric clearance +</text>
+    <text x="114" y="276" text-anchor="middle" class="box-text">object-level interpretation</text>
+    <rect x="30" y="307" width="168" height="42" rx="21" fill="#d97a3a"/>
+    <text x="114" y="333" text-anchor="middle" class="tag">3D SWEPT PATH ANALYSIS</text>
+  </g>
+
+  <!-- Validation band -->
+  <g transform="translate(30,430)">
+    <rect width="1268" height="72" rx="14" fill="#ffffff" stroke="#c5d5de" stroke-width="2"/>
+    <text x="24" y="29" class="box-title">Validation in three real-life scenarios:</text>
+    <text x="24" y="53" class="box-text">Narrow intersection • Roundabout • Low-clearance overpass</text>
+
+    <line x1="510" y1="14" x2="510" y2="58" stroke="#d2dee5" stroke-width="2"/>
+    <text x="540" y="29" class="box-title">Geometric accuracy</text>
+    <text x="540" y="52" class="small">TLS reference + mapping baselines</text>
+
+    <line x1="790" y1="14" x2="790" y2="58" stroke="#d2dee5" stroke-width="2"/>
+    <text x="820" y="29" class="box-title">Semantic accuracy</text>
+    <text x="820" y="52" class="small">Manual labels + refinement analysis</text>
+
+    <line x1="1060" y1="14" x2="1060" y2="58" stroke="#d2dee5" stroke-width="2"/>
+    <text x="1090" y="29" class="box-title">SPA applicability</text>
+    <text x="1090" y="52" class="small">Object-level risk interpretation</text>
+  </g>
+</svg>
