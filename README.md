@@ -4,7 +4,7 @@ This repository presents the study **“Engineering-aware Semantic Mapping of Co
 
 The study focuses on generating clean, geometrically consistent, and semantically informative 3D street models for clearance-critical transport planning in **constrained urban streets**.
 
-![Graphical abstract](figures/graphical_abstract/graphical_abstract.svg)
+![Graphical abstract](figures/graphical_abstract/framework.svg)
 
 ## Why constrained urban streets?
 
